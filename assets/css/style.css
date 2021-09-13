@@ -132,6 +132,8 @@ text-transform: uppercase;
     padding-top: 100%;
     background-color: #ccc;
     border: 5px solid white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 section.servicos .container {
@@ -188,11 +190,11 @@ section.perfil-container {
 }
 
 section.perfil-container .container {
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 section.perfil-container .perfil-wrapper{
-    padding-top: 60%;
+    padding-top: 50%;
     position: relative;
 }
 
@@ -224,8 +226,9 @@ section.perfil-container .texto-perfil h2 {
 }
 
 section.perfil-container .texto-perfil p {
-    font-size: 14px;
-    color: #4b4b4b;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(190,190,190);
     margin-top: 8px;
 }
 
@@ -351,6 +354,8 @@ section.depoimentos .depoimento-single {
     padding-top: calc(100% / 9);
     background-color: blue;
     border: 6px solid white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .facebook-chamada {
@@ -370,6 +375,7 @@ section.depoimentos .depoimento-single {
 
 section.contato {
     padding: 60px 2%;
+    background-color: rgb(230,230,230);
 }
 
 section.contato > h2 {
@@ -553,7 +559,7 @@ footer .footer-block p {
         display: inline-block;
         width: 50%;
         height: auto;
-        padding-top: 70%;
+        padding-top: 60%;
         margin-bottom: 20px;
     }
     
@@ -605,7 +611,7 @@ footer .footer-block p {
 
     section.perfil-container .img-perfil {
         width: 80%;
-        padding-top: 110%;
+        padding-top: 90%;
     }
 
     section.videos .box-video {
