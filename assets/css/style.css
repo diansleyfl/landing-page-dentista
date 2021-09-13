@@ -368,6 +368,81 @@ section.depoimentos .depoimento-single {
     font-size: 13px;
 }
 
+section.contato {
+    padding: 60px 2%;
+}
+
+section.contato > h2 {
+    text-align: center;
+    color: #698293;
+    font-size: 18px;
+}
+
+section.contato form {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.form-wraper {
+    float: left;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w100.center{
+    text-align: center;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.form-wraper span {
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.form-wraper input[type=text] {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    border: 1px solid #dadada;
+    margin-top: 8px;
+}
+
+.form-wraper input[type=email] {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    border: 1px solid #dadada;
+    margin-top: 8px;
+}
+
+.form-wraper textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    height: 121px;
+    resize: none;
+    border: 1px solid #dadada;
+}
+
+.form-wraper input[type=submit] {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    background-color: #688293;
+    color: white;
+    cursor: pointer;
+}
 
 /* 
 ----------------------------------------------------------
@@ -500,6 +575,10 @@ section.depoimentos .depoimento-single {
     section.videos .box-video {
         width: 100%;
         padding-top: calc(100% * 0.6);
+    }
+
+    .w50 {
+        width: 100%;
     }
 
 }
